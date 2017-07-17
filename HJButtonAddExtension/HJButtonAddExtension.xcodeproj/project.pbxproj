@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F373C91F1B700F00551CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F373C81F1B700F00551CD9 /* AppDelegate.m */; };
+		59F373CC1F1B700F00551CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F373CB1F1B700F00551CD9 /* main.m */; };
+		59F373CF1F1B700F00551CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F373CE1F1B700F00551CD9 /* ViewController.m */; };
+		59F373D11F1B700F00551CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F373D01F1B700F00551CD9 /* Assets.xcassets */; };
+		59F373D41F1B700F00551CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F373D21F1B700F00551CD9 /* Main.storyboard */; };
+		59F373DF1F1B700F00551CD9 /* HJButtonAddExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F373DE1F1B700F00551CD9 /* HJButtonAddExtensionTests.m */; };
+		59F373EA1F1B700F00551CD9 /* HJButtonAddExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F373E91F1B700F00551CD9 /* HJButtonAddExtensionUITests.m */; };
+		59F373FE1F1B705C00551CD9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F373FD1F1B705C00551CD9 /* Cocoa.framework */; };
+		59F374041F1B705D00551CD9 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F374031F1B705D00551CD9 /* SourceEditorExtension.m */; };
+		59F374071F1B705D00551CD9 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F374061F1B705D00551CD9 /* SourceEditorCommand.m */; };
+		59F3740B1F1B705D00551CD9 /* HJButtonAddPlugin.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 59F373FB1F1B705C00551CD9 /* HJButtonAddPlugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		59F374121F1B736000551CD9 /* HJAddButtonCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F374111F1B736000551CD9 /* HJAddButtonCode.m */; };
+		59F374151F1BB13D00551CD9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F374141F1BB13D00551CD9 /* NSString+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F373DB1F1B700F00551CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F373BC1F1B700F00551CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F373C31F1B700F00551CD9;
+			remoteInfo = HJButtonAddExtension;
+		};
+		59F373E61F1B700F00551CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F373BC1F1B700F00551CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F373C31F1B700F00551CD9;
+			remoteInfo = HJButtonAddExtension;
+		};
+		59F374091F1B705D00551CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F373BC1F1B700F00551CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F373FA1F1B705C00551CD9;
+			remoteInfo = HJButtonAddPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59F3740F1F1B705D00551CD9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				59F3740B1F1B705D00551CD9 /* HJButtonAddPlugin.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59F373C41F1B700F00551CD9 /* HJButtonAddExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJButtonAddExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F373C71F1B700F00551CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59F373C81F1B700F00551CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59F373CB1F1B700F00551CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59F373CD1F1B700F00551CD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59F373CE1F1B700F00551CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59F373D01F1B700F00551CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F373D31F1B700F00551CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59F373D51F1B700F00551CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F373DA1F1B700F00551CD9 /* HJButtonAddExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJButtonAddExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F373DE1F1B700F00551CD9 /* HJButtonAddExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJButtonAddExtensionTests.m; sourceTree = "<group>"; };
+		59F373E01F1B700F00551CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F373E51F1B700F00551CD9 /* HJButtonAddExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJButtonAddExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F373E91F1B700F00551CD9 /* HJButtonAddExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJButtonAddExtensionUITests.m; sourceTree = "<group>"; };
+		59F373EB1F1B700F00551CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F373FB1F1B705C00551CD9 /* HJButtonAddPlugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HJButtonAddPlugin.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F373FD1F1B705C00551CD9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		59F374011F1B705D00551CD9 /* HJButtonAddPlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HJButtonAddPlugin.entitlements; sourceTree = "<group>"; };
+		59F374021F1B705D00551CD9 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		59F374031F1B705D00551CD9 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		59F374051F1B705D00551CD9 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		59F374061F1B705D00551CD9 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		59F374081F1B705D00551CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F374101F1B736000551CD9 /* HJAddButtonCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAddButtonCode.h; sourceTree = "<group>"; };
+		59F374111F1B736000551CD9 /* HJAddButtonCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAddButtonCode.m; sourceTree = "<group>"; };
+		59F374131F1BB13D00551CD9 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		59F374141F1BB13D00551CD9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F373C11F1B700F00551CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373D71F1B700F00551CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373E21F1B700F00551CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373F81F1B705C00551CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F373FE1F1B705C00551CD9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F373BB1F1B700F00551CD9 = {
+			isa = PBXGroup;
+			children = (
+				59F373C61F1B700F00551CD9 /* HJButtonAddExtension */,
+				59F373FF1F1B705D00551CD9 /* HJButtonAddPlugin */,
+				59F373DD1F1B700F00551CD9 /* HJButtonAddExtensionTests */,
+				59F373E81F1B700F00551CD9 /* HJButtonAddExtensionUITests */,
+				59F373FC1F1B705C00551CD9 /* Frameworks */,
+				59F373C51F1B700F00551CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F373C51F1B700F00551CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F373C41F1B700F00551CD9 /* HJButtonAddExtension.app */,
+				59F373DA1F1B700F00551CD9 /* HJButtonAddExtensionTests.xctest */,
+				59F373E51F1B700F00551CD9 /* HJButtonAddExtensionUITests.xctest */,
+				59F373FB1F1B705C00551CD9 /* HJButtonAddPlugin.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F373C61F1B700F00551CD9 /* HJButtonAddExtension */ = {
+			isa = PBXGroup;
+			children = (
+				59F373C71F1B700F00551CD9 /* AppDelegate.h */,
+				59F373C81F1B700F00551CD9 /* AppDelegate.m */,
+				59F373CD1F1B700F00551CD9 /* ViewController.h */,
+				59F373CE1F1B700F00551CD9 /* ViewController.m */,
+				59F373D01F1B700F00551CD9 /* Assets.xcassets */,
+				59F373D21F1B700F00551CD9 /* Main.storyboard */,
+				59F373D51F1B700F00551CD9 /* Info.plist */,
+				59F373CA1F1B700F00551CD9 /* Supporting Files */,
+			);
+			path = HJButtonAddExtension;
+			sourceTree = "<group>";
+		};
+		59F373CA1F1B700F00551CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F373CB1F1B700F00551CD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59F373DD1F1B700F00551CD9 /* HJButtonAddExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				59F373DE1F1B700F00551CD9 /* HJButtonAddExtensionTests.m */,
+				59F373E01F1B700F00551CD9 /* Info.plist */,
+			);
+			path = HJButtonAddExtensionTests;
+			sourceTree = "<group>";
+		};
+		59F373E81F1B700F00551CD9 /* HJButtonAddExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59F373E91F1B700F00551CD9 /* HJButtonAddExtensionUITests.m */,
+				59F373EB1F1B700F00551CD9 /* Info.plist */,
+			);
+			path = HJButtonAddExtensionUITests;
+			sourceTree = "<group>";
+		};
+		59F373FC1F1B705C00551CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59F373FD1F1B705C00551CD9 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F373FF1F1B705D00551CD9 /* HJButtonAddPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				59F374131F1BB13D00551CD9 /* NSString+Extension.h */,
+				59F374141F1BB13D00551CD9 /* NSString+Extension.m */,
+				59F374101F1B736000551CD9 /* HJAddButtonCode.h */,
+				59F374111F1B736000551CD9 /* HJAddButtonCode.m */,
+				59F374021F1B705D00551CD9 /* SourceEditorExtension.h */,
+				59F374031F1B705D00551CD9 /* SourceEditorExtension.m */,
+				59F374051F1B705D00551CD9 /* SourceEditorCommand.h */,
+				59F374061F1B705D00551CD9 /* SourceEditorCommand.m */,
+				59F374081F1B705D00551CD9 /* Info.plist */,
+				59F374001F1B705D00551CD9 /* Supporting Files */,
+			);
+			path = HJButtonAddPlugin;
+			sourceTree = "<group>";
+		};
+		59F374001F1B705D00551CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F374011F1B705D00551CD9 /* HJButtonAddPlugin.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F373C31F1B700F00551CD9 /* HJButtonAddExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F373EE1F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtension" */;
+			buildPhases = (
+				59F373C01F1B700F00551CD9 /* Sources */,
+				59F373C11F1B700F00551CD9 /* Frameworks */,
+				59F373C21F1B700F00551CD9 /* Resources */,
+				59F3740F1F1B705D00551CD9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F3740A1F1B705D00551CD9 /* PBXTargetDependency */,
+			);
+			name = HJButtonAddExtension;
+			productName = HJButtonAddExtension;
+			productReference = 59F373C41F1B700F00551CD9 /* HJButtonAddExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F373D91F1B700F00551CD9 /* HJButtonAddExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F373F11F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtensionTests" */;
+			buildPhases = (
+				59F373D61F1B700F00551CD9 /* Sources */,
+				59F373D71F1B700F00551CD9 /* Frameworks */,
+				59F373D81F1B700F00551CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F373DC1F1B700F00551CD9 /* PBXTargetDependency */,
+			);
+			name = HJButtonAddExtensionTests;
+			productName = HJButtonAddExtensionTests;
+			productReference = 59F373DA1F1B700F00551CD9 /* HJButtonAddExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59F373E41F1B700F00551CD9 /* HJButtonAddExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F373F41F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtensionUITests" */;
+			buildPhases = (
+				59F373E11F1B700F00551CD9 /* Sources */,
+				59F373E21F1B700F00551CD9 /* Frameworks */,
+				59F373E31F1B700F00551CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F373E71F1B700F00551CD9 /* PBXTargetDependency */,
+			);
+			name = HJButtonAddExtensionUITests;
+			productName = HJButtonAddExtensionUITests;
+			productReference = 59F373E51F1B700F00551CD9 /* HJButtonAddExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		59F373FA1F1B705C00551CD9 /* HJButtonAddPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F3740C1F1B705D00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddPlugin" */;
+			buildPhases = (
+				59F373F71F1B705C00551CD9 /* Sources */,
+				59F373F81F1B705C00551CD9 /* Frameworks */,
+				59F373F91F1B705C00551CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJButtonAddPlugin;
+			productName = HJButtonAddPlugin;
+			productReference = 59F373FB1F1B705C00551CD9 /* HJButtonAddPlugin.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F373BC1F1B700F00551CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jing;
+				TargetAttributes = {
+					59F373C31F1B700F00551CD9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8G4JHEHBFG;
+						ProvisioningStyle = Automatic;
+					};
+					59F373D91F1B700F00551CD9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59F373C31F1B700F00551CD9;
+					};
+					59F373E41F1B700F00551CD9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59F373C31F1B700F00551CD9;
+					};
+					59F373FA1F1B705C00551CD9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8G4JHEHBFG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 59F373BF1F1B700F00551CD9 /* Build configuration list for PBXProject "HJButtonAddExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59F373BB1F1B700F00551CD9;
+			productRefGroup = 59F373C51F1B700F00551CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F373C31F1B700F00551CD9 /* HJButtonAddExtension */,
+				59F373D91F1B700F00551CD9 /* HJButtonAddExtensionTests */,
+				59F373E41F1B700F00551CD9 /* HJButtonAddExtensionUITests */,
+				59F373FA1F1B705C00551CD9 /* HJButtonAddPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F373C21F1B700F00551CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F373D11F1B700F00551CD9 /* Assets.xcassets in Resources */,
+				59F373D41F1B700F00551CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373D81F1B700F00551CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373E31F1B700F00551CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373F91F1B705C00551CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F373C01F1B700F00551CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F373CF1F1B700F00551CD9 /* ViewController.m in Sources */,
+				59F373CC1F1B700F00551CD9 /* main.m in Sources */,
+				59F373C91F1B700F00551CD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373D61F1B700F00551CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F373DF1F1B700F00551CD9 /* HJButtonAddExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373E11F1B700F00551CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F373EA1F1B700F00551CD9 /* HJButtonAddExtensionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F373F71F1B705C00551CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F374121F1B736000551CD9 /* HJAddButtonCode.m in Sources */,
+				59F374041F1B705D00551CD9 /* SourceEditorExtension.m in Sources */,
+				59F374071F1B705D00551CD9 /* SourceEditorCommand.m in Sources */,
+				59F374151F1BB13D00551CD9 /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F373DC1F1B700F00551CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F373C31F1B700F00551CD9 /* HJButtonAddExtension */;
+			targetProxy = 59F373DB1F1B700F00551CD9 /* PBXContainerItemProxy */;
+		};
+		59F373E71F1B700F00551CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F373C31F1B700F00551CD9 /* HJButtonAddExtension */;
+			targetProxy = 59F373E61F1B700F00551CD9 /* PBXContainerItemProxy */;
+		};
+		59F3740A1F1B705D00551CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F373FA1F1B705C00551CD9 /* HJButtonAddPlugin */;
+			targetProxy = 59F374091F1B705D00551CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F373D21F1B700F00551CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F373D31F1B700F00551CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F373EC1F1B700F00551CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		59F373ED1F1B700F00551CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59F373EF1F1B700F00551CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G4JHEHBFG;
+				INFOPLIST_FILE = HJButtonAddExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		59F373F01F1B700F00551CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G4JHEHBFG;
+				INFOPLIST_FILE = HJButtonAddExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		59F373F21F1B700F00551CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HJButtonAddExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJButtonAddExtension.app/Contents/MacOS/HJButtonAddExtension";
+			};
+			name = Debug;
+		};
+		59F373F31F1B700F00551CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HJButtonAddExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJButtonAddExtension.app/Contents/MacOS/HJButtonAddExtension";
+			};
+			name = Release;
+		};
+		59F373F51F1B700F00551CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HJButtonAddExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJButtonAddExtension;
+			};
+			name = Debug;
+		};
+		59F373F61F1B700F00551CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HJButtonAddExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJButtonAddExtension;
+			};
+			name = Release;
+		};
+		59F3740D1F1B705D00551CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HJButtonAddPlugin/HJButtonAddPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G4JHEHBFG;
+				INFOPLIST_FILE = HJButtonAddPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtension.HJButtonAddPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59F3740E1F1B705D00551CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HJButtonAddPlugin/HJButtonAddPlugin.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G4JHEHBFG;
+				INFOPLIST_FILE = HJButtonAddPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = Jing.HJButtonAddExtension.HJButtonAddPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F373BF1F1B700F00551CD9 /* Build configuration list for PBXProject "HJButtonAddExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F373EC1F1B700F00551CD9 /* Debug */,
+				59F373ED1F1B700F00551CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F373EE1F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F373EF1F1B700F00551CD9 /* Debug */,
+				59F373F01F1B700F00551CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F373F11F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F373F21F1B700F00551CD9 /* Debug */,
+				59F373F31F1B700F00551CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F373F41F1B700F00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F373F51F1B700F00551CD9 /* Debug */,
+				59F373F61F1B700F00551CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F3740C1F1B705D00551CD9 /* Build configuration list for PBXNativeTarget "HJButtonAddPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F3740D1F1B705D00551CD9 /* Debug */,
+				59F3740E1F1B705D00551CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F373BC1F1B700F00551CD9 /* Project object */;
+}
